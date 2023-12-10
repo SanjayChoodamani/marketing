@@ -72,7 +72,7 @@ function Hero() {
                             duration: 1
                         }
                     }}>
-                    <img src="images/drone.png" className='drone' alt='drone' />
+                    <img src="./images/drone.png" className='drone' alt='drone' />
                 </motion.div>
                 <motion.div
                     initial={{
@@ -87,7 +87,7 @@ function Hero() {
                             duration: 1
                         }
                     }}>
-                    <img src="images/robot.png" className='robot' alt='robot' />
+                    <img src="./images/robot.png" className='robot' alt='robot' />
                 </motion.div>
 
             </motion.div>
