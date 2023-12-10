@@ -31,12 +31,18 @@
     }
     
 }
-.contact-card p{
+.name{
     font-size: 25px;
     font-weight: bold;
-    margin: 10px 0px;
+    margin: 5px 0px;
 }
 
+.designation{
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    color: rgb(75, 75, 75);
+}
 
 .contact-card a{
     font-size: 18px;

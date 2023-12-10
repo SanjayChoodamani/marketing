@@ -40,6 +40,36 @@
     top: 10%;
 }
 
+@media (max-width: 1120px) {
+    .invest-design{
+        display: flex;
+        gap: 0px 20px;
+        padding: 20px;
+    }
+
+    .invest-text{
+        height: min-content;
+        position: relative;
+        top: 50%;
+        width:80%;
+    }
+
+    .invest-card{
+        height: 65%;
+        width: 75%;
+    }
+
+    .invest-card img{
+        height: 40px;
+        width: 40px;
+        margin: 10px 0px;
+    }
+    .invest-card h2{
+        font-size: 1.6rem;
+    }
+
+}
+
 @media (max-width: 480px) {
     .invest-design{
         height: fit-content;

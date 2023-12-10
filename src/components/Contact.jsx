@@ -6,28 +6,32 @@ export default function Contact(){
             <div className='contact-person'>
                 <h1>Let's Talk</h1>
                 <div className='contact-card'>
-                    <p>Manvith Techie</p>
+                    <p className='name'>Techie Manvith</p>
+                    <p className='designation'>Committee Chairperson</p>
                     <div className='num'>
                         <a href='tel:+916361034226'>+91 6361034226</a>          
                         <a href='mailto: manvith@malnadtechnicalclub.com'>manvith@malnadtechnicalclub.com</a>
                     </div>
                 </div>
                 <div className='contact-card'>
-                    <p>Vidwath Techie</p>
+                    <p className='name'>Techie Vidwath</p>
+                    <p className='designation'>Marketing and Publicity Head</p>
                     <div className='num'>
                         <a href='tel:+917019347171'>+91 7019347171</a>
                         <a href='mailto: vidwath@malnadtechnicalclub.com'>vidwath@malnadtechnicalclub.com</a>
                     </div>
                 </div>
                 <div className='contact-card'>
-                    <p>Mayura Techie</p>
+                    <p className='name'>Techie Mayura </p>
+                    <p className='designation'>Marketing and Publicity</p>
                     <div className='num'>
                         <a href='tel:+918431121367'>+91 8431121367</a>          
                         <a href='mailto: mayura@malnadtechnicalclub.com'>mayura@malnadtechnicalclub.com</a>
                     </div>
                 </div>
                 <div className='contact-card'>
-                    <p>Keerthi Techie</p>
+                    <p className='name'>Techie Keerthi</p>
+                    <p className='designation'>Design Committee</p>
                     <div className='num'>
                         <a href='tel:+918296292335'>+91 8296292335</a>          
                         <a href='mailto: keerthi@malnadtechnicalclub.com'>keerthi@malnadtechnicalclub.com</a>
