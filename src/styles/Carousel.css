@@ -1,0 +1,78 @@
+.carousel-design{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: fit-content;
+    margin: 20px 0px;
+}
+
+.carousel-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    font-size: 2.3rem;
+}
+.carousel-heading i{
+    font-size: 3.5rem;
+}
+
+.carousel-card{
+    height: max-content;
+    padding: 10px 0px 30px;
+    width: 300px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  width: 350px;
+  height: 280px;
+
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.mySwiper img{
+  object-fit: cover;
+  width: 350px;
+  height: 280px;
+}
+
+@media (max-width: 480px){
+  .carousel-heading{
+    font-size: 1.5rem;
+    margin: 40px 20px;
+    padding: 20px 0px;
+}
+.carousel-card{
+  height: max-content;
+  padding: 10px;
+  width: 300px;
+  position: relative;
+  left: 20%;
+  transform: translateX(-20%);
+
+}
+.swiper {
+  width: 280px;
+  height: 280px;
+}
+
+}

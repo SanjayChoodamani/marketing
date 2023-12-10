@@ -1,0 +1,19 @@
+nav{
+    margin: 0px;
+    padding: 40px 30px;
+    background-color: black;
+    border: none;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+nav p{
+    font-size: 20px;
+    z-index: 10;
+    color: white;
+    width: fit-content;
+}
+ 

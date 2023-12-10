@@ -1,0 +1,76 @@
+.invest-design{
+    background-color: black;
+    color: white;
+    height: 60dvh;
+    margin: 20px 0px;
+    display: flex;
+    gap: 0px 30px;
+    padding: 20px;
+}
+
+.invest-text{
+    position: relative;
+    top: 70%;
+    width: 30%;
+
+}
+.invest-card{
+    height: 65%;
+    width: 30%;
+    background-color: white;
+    color: black;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.invest-card img{
+    height: 85px;
+    width: 85px;
+    margin: 10px 0px;
+}
+
+.invest-card h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0px 0px 10px 0px;
+}
+
+#card-1{
+    position: relative;
+    top: 10%;
+}
+
+@media (max-width: 480px) {
+    .invest-design{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        gap: 30px 0px;
+        padding: 30px;
+    }
+
+    .invest-text{
+        position: relative;
+        top: 5%;
+        width:90%;
+    }
+
+    .invest-card{
+        height: 50%;
+        width: 75%;
+    }
+
+    .invest-card img{
+        height: 50px;
+        width: 50px;
+        margin: 10px 0px;
+    }
+    .invest-card h2{
+        font-size: 1.6rem;
+    }
+
+    #card-2{
+        position: relative;
+        left: 5%;
+    }
+}

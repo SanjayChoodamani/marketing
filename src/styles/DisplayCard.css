@@ -1,0 +1,102 @@
+.card{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100dvh;
+    background-color: rgba(0, 0, 0, 0.712);
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 1000;
+
+}
+
+.inner-card{
+    width: 40%;
+    height: 90%;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    top: 5%;
+}
+
+.inner-card button{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    border-radius: 50%;
+    position: absolute;
+    right: -30px;
+    top: -30px;
+    z-index: 10;
+}
+
+.inner-card button i{
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    color: white;
+}
+
+.inner-card img{
+    width: 100%;
+    height: 40dvh;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0px 0px 10px;
+}
+
+.desc{
+    margin: 10px;
+    height: 60dvh;
+}
+
+.desc-p1{
+    margin: 20px 0px 0px 10px;
+}
+
+.desc-p2{
+    margin: 10px;
+    font-size: 20px;
+    overflow-y: scroll;
+    height: 45%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px grey; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: rgb(105, 105, 105); 
+
+}
+
+
+@media (max-width: 480px){
+    .inner-card{
+        width: 80%;
+        height: 70%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .inner-card img{
+        height: 30dvh;
+    }
+}

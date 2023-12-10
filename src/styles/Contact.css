@@ -1,0 +1,87 @@
+.contact-design{
+    margin: 10px 0px 0px;
+    background-color: white;
+}
+
+.contact-person{
+    margin: 10px;
+    padding: 10px;
+}
+
+.contact-person h1{
+    font-size: 2rem;
+    margin: 10px 0px;
+}
+
+.contact-card{
+    margin: 10px 0px;
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.num{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 480px){
+    .num{
+       flex-direction: column;
+    }
+    
+}
+.contact-card p{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+
+.contact-card a{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+    margin: 5px 10px 5px 0px;
+    border: 2px solid rgb(75, 75, 75);
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: fit-content;
+}
+
+.contact-social{
+    margin: 0px;
+    padding: 20px;
+    background-color: #E9E5DF;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.social p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.social a{
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+    font-size: 20px;
+    margin: 2px 0px;
+    font-weight: bold;
+}
+
+.copyright{
+    margin-top: 10px;
+}
+
+.copyright p{
+    margin: 5px 0px;
+}

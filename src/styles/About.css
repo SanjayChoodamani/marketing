@@ -1,0 +1,47 @@
+.about{
+    margin-bottom: 40px;
+    width: 100%;
+    height: fit-content;
+}
+
+.about-heading{
+    padding: 20px 10px 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 3rem;
+}
+
+.about-info{
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+button{
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin: 0px;
+}
+button i{
+    margin: 0px 0px 0px 10px;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 480px){
+    .about-heading{
+        padding: 20px;
+        font-size: 1.5rem;
+    }
+    .about-heading i{
+        font-size: 2rem;
+    }
+}
