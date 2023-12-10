@@ -23,7 +23,7 @@
     width: 300px;
     position: relative;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-70%);
 
 }
 
@@ -34,8 +34,8 @@
 }
 
 .swiper {
-  width: 350px;
-  height: 280px;
+  width: 500px;
+  height: 380px;
 
 }
 
@@ -49,10 +49,10 @@
   color: #fff;
 }
 
-.mySwiper img{
+.mySwiper2 img{
   object-fit: cover;
-  width: 350px;
-  height: 280px;
+  width: 500px;
+  height: 380px;
 }
 
 @media (max-width: 480px){
@@ -63,16 +63,18 @@
 }
 .carousel-card{
   height: max-content;
-  padding: 10px;
   width: 300px;
   position: relative;
-  left: 20%;
-  transform: translateX(-20%);
-
+  left: 50%;
+  transform: translateX(-50%);
 }
 .swiper {
-  width: 280px;
-  height: 280px;
+  width: 300px;
+  height: 220px;
 }
-
+.mySwiper2 img{
+  object-fit: cover;
+  width: 300px;
+  height: 220px;
+}
 }

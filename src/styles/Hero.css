@@ -131,6 +131,7 @@
         width: 60%;
         text-align: center;
         margin: 20px 0px;
+        font-weight: bold;
     }
 
     .btn-layout {
@@ -153,8 +154,8 @@
         right: 10%;
         top: 5%;
         transform: translate(-10%, -3%);
-        height: 250px;
-        width: 250px;
+        height: 200px;
+        width: 200px;
 
     }
 

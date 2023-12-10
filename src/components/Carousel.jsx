@@ -4,8 +4,8 @@ import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
-import 'swiper/css/effect-cards';
-import { EffectCards } from 'swiper/modules';
+import 'swiper/css/effect-creative';
+import { EffectCreative } from 'swiper/modules';
 
 import aero from '../assets/images/carousel/aeroNautica.jpg'
 import enigma from '../assets/images/carousel/enigma23.jpg'
@@ -19,6 +19,7 @@ import npp from '../assets/images/carousel/npp.jpg'
 import techS from '../assets/images/carousel/techsandhya.jpg'
 import mega from '../assets/images/carousel/megastructures.jpg'
 import ing from '../assets/images/carousel/ingenium.jpg'
+import inq from '../assets/images/carousel/inquizitive.jpg'
 
 
 export default function Carousel() {
@@ -31,20 +32,34 @@ export default function Carousel() {
         </div>
         <div className='carousel-card'>
         <Swiper
-        effect={'cards'}
         grabCursor={true}
-        modules={[EffectCards]}
-        className="mySwiper"
+        effect={'creative'}
+        creativeEffect={{
+          prev: {
+            shadow: true,
+            translate: ['-120%', 0, -500],
+          },
+          next: {
+            shadow: true,
+            translate: ['120%', 0, -500],
+          },
+        }}
+        modules={[EffectCreative]}
+        className="mySwiper2"
       >
+        <SwiperSlide><img src={enigma} alt='carouse-images' /></SwiperSlide>
         <SwiperSlide><img src={aero} alt='carouse-images' /></SwiperSlide>
         <SwiperSlide><img src={roboK} alt='carouse-images' /></SwiperSlide>
         <SwiperSlide><img src={roboS} alt='carouse-images' /></SwiperSlide>
         <SwiperSlide><img src={extreme} alt='carouse-images' /></SwiperSlide>
-        <SwiperSlide><img src={enigma} alt='carouse-images' /></SwiperSlide>
         <SwiperSlide><img src={play} alt='carouse-images' /></SwiperSlide>
         <SwiperSlide><img src={loco} alt='carouse-images' /></SwiperSlide>
         <SwiperSlide><img src={spud} alt='carouse-images' /></SwiperSlide>
         <SwiperSlide><img src={npp} alt='carouse-images' /></SwiperSlide>
+        <SwiperSlide><img src={techS} alt='carouse-images' /></SwiperSlide>
+        <SwiperSlide><img src={mega} alt='carouse-images' /></SwiperSlide>
+        <SwiperSlide><img src={ing} alt='carouse-images' /></SwiperSlide>
+        <SwiperSlide><img src={inq} alt='carouse-images' /></SwiperSlide>
       </Swiper>
         </div>
     </div>
