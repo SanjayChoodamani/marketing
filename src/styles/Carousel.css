@@ -34,8 +34,8 @@
 }
 
 .swiper {
-  width: 500px;
-  height: 380px;
+  width: 400px;
+  height: 280px;
 
 }
 
@@ -51,8 +51,8 @@
 
 .mySwiper2 img{
   object-fit: cover;
-  width: 500px;
-  height: 380px;
+  width: 400px;
+  height: 280px;
 }
 
 @media (max-width: 480px){

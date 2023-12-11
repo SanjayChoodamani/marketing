@@ -30,11 +30,11 @@ export default function Contact(){
                     </div>
                 </div>
                 <div className='contact-card'>
-                    <p className='name'>Techie Keerthi</p>
-                    <p className='designation'>Design Committee</p>
+                    <p className='name'>Techie Tejas</p>
+                    <p className='designation'>Event Coodinator</p>
                     <div className='num'>
-                        <a href='tel:+918296292335'>+91 8296292335</a>          
-                        <a href='mailto: keerthi@malnadtechnicalclub.com'>keerthi@malnadtechnicalclub.com</a>
+                        <a href='tel:+919742845340'>+91 9742845340</a>          
+                        <a href='mailto: tejas@malnadtechnicalclub.com'>tejas@malnadtechnicalclub.com</a>
                     </div>
                 </div>
             </div>
