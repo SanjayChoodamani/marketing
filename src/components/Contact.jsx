@@ -31,7 +31,7 @@ export default function Contact(){
                 </div>
                 <div className='contact-card'>
                     <p className='name'>Techie Tejas</p>
-                    <p className='designation'>Event Coodinator</p>
+                    <p className='designation'>Event Coordinator</p>
                     <div className='num'>
                         <a href='tel:+919742845340'>+91 9742845340</a>          
                         <a href='mailto: tejas@malnadtechnicalclub.com'>tejas@malnadtechnicalclub.com</a>

@@ -2,6 +2,7 @@ import Button from './Button';
 import '../styles/Hero.css';
 import { motion } from "framer-motion"
 import { HashLink as Link } from 'react-router-hash-link';
+import Brochure from '../../public/docs/Brochure.pdf'
 
 
 function Hero() {
@@ -54,7 +55,7 @@ function Hero() {
 
 
                     <div className='btn-layout'>
-                        <a href=''>Brochure</a>
+                        <a href={Brochure} download="Example-PDF-document" target="_blank">Brochure</a>
                         <Link to='#contact' smooth>Let's Talk</Link>
                     </div>
                 </div>
