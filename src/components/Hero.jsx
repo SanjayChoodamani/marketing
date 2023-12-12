@@ -2,7 +2,7 @@ import Button from './Button';
 import '../styles/Hero.css';
 import { motion } from "framer-motion"
 import { HashLink as Link } from 'react-router-hash-link';
-import Brochure from '../../public/docs/Brochure.pdf'
+import Brochure from '/docs/Brochure.pdf'
 
 
 function Hero() {
