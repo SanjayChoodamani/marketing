@@ -20,6 +20,8 @@ import techS from '../assets/images/carousel/techsandhya.jpg'
 import mega from '../assets/images/carousel/megastructures.jpg'
 import ing from '../assets/images/carousel/ingenium.jpg'
 import inq from '../assets/images/carousel/inquizitive.jpg'
+import pulse from '../assets/images/carousel/pulse.png'
+import marketing from '../assets/images/carousel/marketing.jpg'
 
 
 export default function Carousel() {
@@ -48,6 +50,8 @@ export default function Carousel() {
         className="mySwiper2"
       >
         <SwiperSlide><img src={enigma} alt='carouse-images' /></SwiperSlide>
+        <SwiperSlide><img src={pulse} alt='carouse-images' /></SwiperSlide>
+        <SwiperSlide><img src={marketing} alt='carouse-images' /></SwiperSlide>
         <SwiperSlide><img src={aero} alt='carouse-images' /></SwiperSlide>
         <SwiperSlide><img src={roboK} alt='carouse-images' /></SwiperSlide>
         <SwiperSlide><img src={roboS} alt='carouse-images' /></SwiperSlide>

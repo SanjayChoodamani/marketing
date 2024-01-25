@@ -11,7 +11,7 @@ export default function Events() {
                         [WHAT HAVE WE GOT?]
                     </p>
                     <h1>
-                        Enigma brings a ton of engaging Events every year
+                        Enigma brings a ton of engaging Events, Pronites and Workshops every year
                     </h1>
                 </div>
                 <i class="fa-solid fa-arrow-down"></i>

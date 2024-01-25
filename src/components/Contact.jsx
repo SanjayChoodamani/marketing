@@ -44,7 +44,6 @@ export default function Contact(){
                 <a href='https://www.instagram.com/malnad_technical_club/'>INSTAGRAM</a>
                 <a href='https://www.facebook.com/FoundationsMTC'>FACEBOOK</a>
                 <a href='https://twitter.com/MalnadTechClub/'>X - TWITTER </a>
-                <a href='https://youtube.com/@themalnadtechnicalclub'>YOUTUBE</a>
             </div>
             <div className='copyright'>
                 <p><i class="fa-regular fa-copyright"></i> Enigma'24</p>

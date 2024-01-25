@@ -12,9 +12,19 @@ import Resonance from '/images/resonance.jpg'
 import PlayBytes from '/images/playbytes.jpg'
 import dollars from '/images/mcedollar.jpg'
 import FactualReel from '/images/factual.jpg'
+import Mystery from '/images/mystery.jpg'
+import Laser from '/images/laser.jpg'
+
 
 
 export const eventData =[
+    {
+        "id": 0,
+        "imgloc": Laser,
+        "name":"Laser Show",
+        "type":"Shows",
+        "desciption": "Shows such as Laser Show is always associated with gigs which prove the untold incrediability of science and technology. Laser Show has the capacity to drive the people in and around Hassan hopping mad."
+    },
     {
         "id": 1,
         "imgloc": Aeronautica,
@@ -35,13 +45,6 @@ export const eventData =[
         "name":"RoboSoccer",
         "type":"Design and Build",
         "desciption": "Recast your fighting bot to play soccer. Clone your Robo and make it conquer Ronaldo"
-    },
-    {
-        "id": 4,
-        "imgloc": Xtreme,
-        "name":"Xtreme Machine",
-        "type":"Design and Build",
-        "desciption": "A robotic contest where remote control bots pick and place things to complete the task."
     },
     {
         "id": 5,
@@ -111,6 +114,13 @@ export const eventData =[
         "name":"Factual Reel",
         "type":"Online Event",
         "desciption": "Make reality come alive on the screen. Our contest celebrates the art of factual storytelling, showcasing remarkable stories. Challenge perceptions and ignite curiosity with 'Factual reels'."
+    },
+    {
+        "id": 16,
+        "imgloc": Mystery,
+        "name":"Mystery Miles",
+        "type":"Fun Event",
+        "desciption": `Travelling all life, spying a couple of dusty, tattered old boxes nestled deep in corner, wondering what would be hidden in them, is all so complicated picture of "Treasure Hunt" when a more convenient easy is in hand. Solving the clues, a bit of adventure, some easy excercises would lead to the chest.`
     }
 
 
