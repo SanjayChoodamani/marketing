@@ -22,6 +22,9 @@ import ing from '../assets/images/carousel/ingenium.jpg'
 import inq from '../assets/images/carousel/inquizitive.jpg'
 import pulse from '../assets/images/carousel/pulse.png'
 import marketing from '../assets/images/carousel/marketing.jpg'
+import Laser1 from '../assets/images/carousel/laser1.jpg'
+import Laser2 from '../assets/images/carousel/laser2.jpg'
+import Laser3 from '../assets/images/carousel/laser3.jpg'
 
 
 export default function Carousel() {
@@ -50,14 +53,17 @@ export default function Carousel() {
         className="mySwiper2"
       >
         <SwiperSlide><img src={enigma} alt='carouse-images' /></SwiperSlide>
+        <SwiperSlide><img src={Laser1} alt='carouse-images' /></SwiperSlide>
+        <SwiperSlide><img src={Laser2} alt='carouse-images' /></SwiperSlide>
+        <SwiperSlide><img src={Laser3} alt='carouse-images' /></SwiperSlide>
         <SwiperSlide><img src={pulse} alt='carouse-images' /></SwiperSlide>
-        <SwiperSlide><img src={marketing} alt='carouse-images' /></SwiperSlide>
-        <SwiperSlide><img src={aero} alt='carouse-images' /></SwiperSlide>
         <SwiperSlide><img src={roboK} alt='carouse-images' /></SwiperSlide>
+        <SwiperSlide><img src={aero} alt='carouse-images' /></SwiperSlide>
         <SwiperSlide><img src={roboS} alt='carouse-images' /></SwiperSlide>
         <SwiperSlide><img src={extreme} alt='carouse-images' /></SwiperSlide>
         <SwiperSlide><img src={play} alt='carouse-images' /></SwiperSlide>
         <SwiperSlide><img src={loco} alt='carouse-images' /></SwiperSlide>
+        <SwiperSlide><img src={marketing} alt='carouse-images' /></SwiperSlide>
         <SwiperSlide><img src={spud} alt='carouse-images' /></SwiperSlide>
         <SwiperSlide><img src={npp} alt='carouse-images' /></SwiperSlide>
         <SwiperSlide><img src={techS} alt='carouse-images' /></SwiperSlide>

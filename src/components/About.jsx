@@ -15,7 +15,7 @@ export default function About() {
                         the rapid growth of technology, has emerged as one of the finest clubs in
                         the college, with a decade of seeding constructive ideas and encouraging
                         students to explore the boundless technology. </p><br />
-                    <p>ENIGMA is a state-level technical fest which sets the scene for the students
+                    <p>ENIGMA is a National-level technical fest which sets the scene for the students
                         to showcase their talent and create an environment where fun and innovation
                         go hand in hand. Finding solutions to real life problems, simplifying the living,
                         making the world a better place would articulate engineering.</p><br />

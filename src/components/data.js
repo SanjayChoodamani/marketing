@@ -1,7 +1,6 @@
 import Aeronautica from '/images/aeronautica.jpg'
 import RoboK from '/images/robokombat.png'
 import RoboS from '/images/robosoccer.jpg'
-import Xtreme from '/images/xtreme.png'
 import Mystique from '/images/mystique.jpg'
 import spud from '/images/spud.jpg'
 import mega from '/images/megastruct.jpg'
@@ -19,28 +18,28 @@ import Laser from '/images/laser.jpg'
 
 export const eventData =[
     {
-        "id": 0,
+        "id": 1,
         "imgloc": Laser,
         "name":"Laser Show",
         "type":"Shows",
         "desciption": "Shows such as Laser Show is always associated with gigs which prove the untold incrediability of science and technology. Laser Show has the capacity to drive the people in and around Hassan hopping mad."
     },
     {
-        "id": 1,
+        "id": 2,
         "imgloc": Aeronautica,
         "name":"Aeronautica",
         "type":"Design and Build",
         "desciption": "Welcome to the pulsating heart of drone racing, where the fusion of technology and sport gives birth to an electrifying display of aerial mastery. Witness the convergence of man and machine, where passion and skill converge to create a spectacle that pushes the boundaries of possibility."
     },
     {
-        "id": 2,
+        "id": 3,
         "imgloc": RoboK,
         "name":"RoboKombat",
         "type":"Design and Build",
         "desciption": "The battleground is set to witness the flying blades and alley of destruction.Dust up and awake the ferocious gladiator."
     },
     {
-        "id": 3,
+        "id": 4,
         "imgloc": RoboS,
         "name":"RoboSoccer",
         "type":"Design and Build",
@@ -89,34 +88,34 @@ export const eventData =[
     },
     {
         "id": 11,
-        "imgloc": Resonance,
-        "name":"Resonance",
-        "type":"Paper Event",
-        "desciption":"It's all about how your friendship is more compatible and deals with the scenario of incompatibility!"
-    },
-    {
-        "id": 12,
         "imgloc": PlayBytes,
         "name":"Play Bytes",
         "type":"Paper Event",
         "desciption": "Be pro in the art of programming and forefront the realms of coding."
     },
     {
-        "id": 14,
+        "id": 12,
         "imgloc": dollars,
         "name":"MCE Dollars",
         "type":"Online Event",
         "desciption": "People hate math but love counting dollars. Get ready to sell your stocks and rank at the highest locus."
     },
     {
-        "id": 15,
+        "id": 13,
         "imgloc": FactualReel,
         "name":"Factual Reel",
         "type":"Online Event",
         "desciption": "Make reality come alive on the screen. Our contest celebrates the art of factual storytelling, showcasing remarkable stories. Challenge perceptions and ignite curiosity with 'Factual reels'."
     },
     {
-        "id": 16,
+        "id": 14,
+        "imgloc": Resonance,
+        "name":"Resonance",
+        "type":"Fun Event",
+        "desciption":"It's all about how your friendship is more compatible and deals with the scenario of incompatibility!"
+    },
+    {
+        "id": 15,
         "imgloc": Mystery,
         "name":"Mystery Miles",
         "type":"Fun Event",
