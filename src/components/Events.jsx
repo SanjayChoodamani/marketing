@@ -1,6 +1,6 @@
-import '../styles/Events.css'
+import '../styles/Events.css';
 import Container from './Container';
-import { eventData } from './data'
+import { eventData } from './data';
 
 export default function Events() {
     return (
