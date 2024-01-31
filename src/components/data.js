@@ -13,113 +13,122 @@ import dollars from '/images/mcedollar.jpg'
 import FactualReel from '/images/factual.jpg'
 import Mystery from '/images/mystery.jpg'
 import Laser from '/images/laser.jpg'
+import Drift from '/images/rc_bot.jpg'
 
 
 
 export const eventData =[
     {
-        "id": 1,
-        "imgloc": Laser,
-        "name":"Laser Show",
-        "type":"Shows",
-        "desciption": "Shows such as Laser Show is always associated with gigs which prove the untold incrediability of science and technology. Laser Show has the capacity to drive the people in and around Hassan hopping mad."
-    },
-    {
-        "id": 2,
-        "imgloc": Aeronautica,
-        "name":"Aeronautica",
-        "type":"Design and Build",
-        "desciption": "Welcome to the pulsating heart of drone racing, where the fusion of technology and sport gives birth to an electrifying display of aerial mastery. Witness the convergence of man and machine, where passion and skill converge to create a spectacle that pushes the boundaries of possibility."
+        "id": 9,
+        "imgloc": npp,
+        "name":"National Level Paper Presentation",
+        "type":"Paper Event",
+        "desciption": `Elevate your research to a National platform. Ignite the spark of Innovation and set ideas Ablaze!`
     },
     {
         "id": 3,
         "imgloc": RoboK,
         "name":"RoboKombat",
         "type":"Design and Build",
-        "desciption": "The battleground is set to witness the flying blades and alley of destruction.Dust up and awake the ferocious gladiator."
+        "desciption": "The fierce Arena is perfectly poised to fulfil your bot’s quest for Supremacy. Gear up to witness pulse-pounding attacks in the RoboKombat Arena."
     },
     {
         "id": 4,
         "imgloc": RoboS,
         "name":"RoboSoccer",
         "type":"Design and Build",
-        "desciption": "Recast your fighting bot to play soccer. Clone your Robo and make it conquer Ronaldo"
+        "desciption": "Your Robo's next challenge– Code, Kick, and Compete. Transforming Robots into Ronaldo's Digital Doppelgänger. "
     },
     {
-        "id": 5,
+        "id": 2,
+        "imgloc": Aeronautica,
+        "name":"Aeronautica",
+        "type":"Design and Build",
+        "desciption": "Experience Amusement in the sky! Drones soaring high and wide where Sky’s the only limit."
+    }, 
+    {
+        "id": 6,
         "imgloc": Mystique,
         "name":"Mystique Locomotor",
         "type":"Design and Build",
-        "desciption": "'The ultimate ATV challenge '. Participants build an ATV to master the terrain and race the bots against all hurdles while staying balanced."
-    },
-    {
-        "id": 6,
-        "imgloc": spud,
-        "name":"SpudZooka",
-        "type":"Design and Build",
-        "desciption": "A gun in the hand is better to get locked. Enrich your skills, unload the passion and shoot at the right path."
+        "desciption": "Navigate through Enigmatic hurdles where each challenge unfolds a tale of Resilience and Prowess. Embark on a journey to unveil Victory."
     },
     {
         "id": 7,
+        "imgloc": spud,
+        "name":"SpudZooka",
+        "type":"Design and Build",
+        "desciption": "Load your Spuds, fire away, and aim for the farthest distance in this shooting Extravaganza!"
+    },
+    {
+        "id": 8,
         "imgloc": mega,
         "name":"Megastructure",
         "type":"Design and Build",
-        "desciption": "A rostrum where creativity meets madness, a chance to build your own structure."
-    },{
-        "id": 8,
-        "imgloc": npp,
-        "name":"Paper Presentation",
-        "type":"Paper Event",
-        "desciption": `"Ideologists arise, not from the ashes but from opportunities" Being an excellent platform to showcase the research and ideas, this event has seen considerable amount of growth since past years, both in terms of its quality and sublime contribution towards providing nascent engineers a platform to showcase and present their interest, depth and research on a topic of their interest. Hence it has evolved as a NATIONAL LEVEL event, providing budding engineers across the country to outsmart the rest by their ideas."`
-    },
+        "desciption": "Your chance to build the extraordinary from the ordinary. Crafting shapes and things into splendid creations."
+    },   
     {
-        "id": 9,
+        "id": 5,
+        "imgloc": Drift,
+        "name":"Drift Blitz",
+        "type":"Design and Build",
+        "desciption": "Tech enthusiasts, get ready! The RC Race is hitting town. Time to test your mini marvels. Whether you're a pro or a newcomer aiming to make a mark, this event is crafted just for you. "
+    },     
+    {
+        "id": 10,
         "imgloc": Ingenium,
         "name":"Ingenium",
         "type":"Paper Event",
-        "desciption": "Apply the scientific principles by innovative approaches and make the craziest thing ever!"
-    },
-    {
-        "id": 10,
-        "imgloc": Inquizitive,
-        "name":"Inquizitive",
-        "type":"Paper Event",
-        "desciption": "Ditch all your knowledge and presence of mind to answer the trivia."
+        "desciption": "Unleash your inner Einstein and explore the infinite possibilities of Wisdom."
     },
     {
         "id": 11,
-        "imgloc": PlayBytes,
-        "name":"Play Bytes",
+        "imgloc": Inquizitive,
+        "name":"Inquizitive",
         "type":"Paper Event",
-        "desciption": "Be pro in the art of programming and forefront the realms of coding."
+        "desciption": "Showcase your technical acumen where Tech Wits clash to conquer Inquisition."
     },
     {
         "id": 12,
-        "imgloc": dollars,
-        "name":"MCE Dollars",
-        "type":"Online Event",
-        "desciption": "People hate math but love counting dollars. Get ready to sell your stocks and rank at the highest locus."
+        "imgloc": PlayBytes,
+        "name":"Play Bytes",
+        "type":"Paper Event",
+        "desciption": "A battle that calls for Precision, Speed, and Intelligence! Unveil your skills and code your Triumph!"
     },
     {
         "id": 13,
-        "imgloc": FactualReel,
-        "name":"Factual Reel",
+        "imgloc": dollars,
+        "name":"MCE Dollars",
         "type":"Online Event",
-        "desciption": "Make reality come alive on the screen. Our contest celebrates the art of factual storytelling, showcasing remarkable stories. Challenge perceptions and ignite curiosity with 'Factual reels'."
+        "desciption": "Step into the World of Stocks, dive into an adventure to climb to the peak of  Financial Brilliance."
     },
     {
         "id": 14,
-        "imgloc": Resonance,
-        "name":"Resonance",
-        "type":"Fun Event",
-        "desciption":"It's all about how your friendship is more compatible and deals with the scenario of incompatibility!"
+        "imgloc": FactualReel,
+        "name":"Factual Reel",
+        "type":"Online Event",
+        "desciption": "Get ready to unleash your creativity and showcase your talent through most captivating and entertaining videos, that will leave the audience wanting more."
     },
     {
-        "id": 15,
+        "id": 16,
         "imgloc": Mystery,
         "name":"Mystery Miles",
         "type":"Fun Event",
-        "desciption": `Travelling all life, spying a couple of dusty, tattered old boxes nestled deep in corner, wondering what would be hidden in them, is all so complicated picture of "Treasure Hunt" when a more convenient easy is in hand. Solving the clues, a bit of adventure, some easy excercises would lead to the chest.`
+        "desciption": `Prepare to set sail on an adventure like no other! The Mystery Miles is calling all intrepid souls to embark on a thrilling quest for buried secrets.`
+    },
+    {
+        "id": 15,
+        "imgloc": Resonance,
+        "name":"Resonance",
+        "type":"Fun Event",
+        "desciption":"Setting up the stage in which laughter resonates louder with true friendships. A BFF carnival!"
+    },
+    {
+        "id": 1,
+        "imgloc": Laser,
+        "name":"Laser Show",
+        "type":"Pronite",
+        "desciption": "Brace yourselves to behold the speculating fusion of Art and Technology. Join us for a night of hypnotic bliss through captivating lights."
     }
 
 

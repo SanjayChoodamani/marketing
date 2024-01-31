@@ -55,7 +55,10 @@
     padding: 5px 10px;
     width: fit-content;
 }
-
+.contact-card a:hover {
+    background-color: rgb(75, 75, 75);
+    color: white;
+  }
 .contact-social{
     margin: 0px;
     padding: 20px;

@@ -1,9 +1,9 @@
 .carousel-design{
-    background-color: black;
-    color: white;
-    width: 100%;
-    height: fit-content;
-    margin: 20px 0px;
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin: 20px 0px 0px 0px;
+  padding: 10px 0px;
 }
 
 .carousel-heading{
@@ -20,11 +20,7 @@
 .carousel-card{
     height: max-content;
     padding: 10px 0px 30px;
-    width: 300px;
     position: relative;
-    left: 50%;
-    transform: translateX(-70%);
-
 }
 
 #app {
@@ -32,13 +28,6 @@
   justify-content: center;
   align-items: center;
 }
-
-.swiper {
-  width: 400px;
-  height: 280px;
-
-}
-
 .swiper-slide {
   display: flex;
   align-items: center;
@@ -49,32 +38,50 @@
   color: #fff;
 }
 
-.mySwiper2 img{
-  object-fit: cover;
-  width: 400px;
-  height: 280px;
+.swiper_container {
+  width: 100%;
+  height: 300px;
+  padding: 10px 0;
+  position: relative;
 }
 
-@media (max-width: 480px){
-  .carousel-heading{
+.swiper-slide {
+  width: 20%;
+}
+
+.swiper-slide img {
+  width: 400px;
+  height: 300px;
+  border-radius: 2rem;
+  object-fit: cover;
+  margin: 0px 10px;
+}
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .carousel-heading {
     font-size: 1.5rem;
     margin: 40px 20px;
     padding: 20px 0px;
-}
-.carousel-card{
-  height: max-content;
-  width: 300px;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.swiper {
-  width: 300px;
-  height: 220px;
-}
-.mySwiper2 img{
-  object-fit: cover;
-  width: 300px;
-  height: 220px;
-}
+  }
+  .carousel-card {
+    height: max-content;
+    width: 300px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .swiper {
+    width: 300px;
+    height: 220px;
+  }
+  .mySwiper2 img {
+    object-fit: cover;
+    width: 300px;
+    height: 220px;
+  }
 }

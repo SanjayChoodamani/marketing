@@ -6,7 +6,7 @@ export default function Contact(){
             <div className='contact-person'>
                 <h1>Let's Talk</h1>
                 <div className='contact-card'>
-                    <p className='name'>Techie Manvith</p>
+                    <p className='name'>Manvith G S</p>
                     <p className='designation'>Committee Chairperson</p>
                     <div className='num'>
                         <a href='tel:+916361034226'>+91 6361034226</a>          
@@ -14,7 +14,7 @@ export default function Contact(){
                     </div>
                 </div>
                 <div className='contact-card'>
-                    <p className='name'>Techie Vidwath</p>
+                    <p className='name'>Vidwath K T</p>
                     <p className='designation'>Marketing and Publicity Head</p>
                     <div className='num'>
                         <a href='tel:+917019347171'>+91 7019347171</a>
@@ -22,7 +22,7 @@ export default function Contact(){
                     </div>
                 </div>
                 <div className='contact-card'>
-                    <p className='name'>Techie Mayura </p>
+                    <p className='name'>Mayura M L</p>
                     <p className='designation'>Marketing and Publicity</p>
                     <div className='num'>
                         <a href='tel:+918431121367'>+91 8431121367</a>          
@@ -30,7 +30,7 @@ export default function Contact(){
                     </div>
                 </div>
                 <div className='contact-card'>
-                    <p className='name'>Techie Tejas</p>
+                    <p className='name'>Tejas Noojile</p>
                     <p className='designation'>Event Coordinator</p>
                     <div className='num'>
                         <a href='tel:+919742845340'>+91 9742845340</a>          

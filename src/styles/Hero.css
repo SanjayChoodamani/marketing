@@ -1,17 +1,17 @@
 @font-face {
     font-family: "Megatron";
     src: url(/fonts/Megatron.otf);
-}
-
-.Hero-design {
+  }
+  
+  .Hero-design {
     background-color: black;
     color: white;
     height: 100dvh;
     width: 100%;
     font-family: "Scto Grotesk A", sans-serif;
-}
-
-.bg-circle {
+  }
+  
+  .bg-circle {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -19,10 +19,9 @@
     opacity: 0.9;
     z-index: 0;
     width: 90%;
-
-}
-
-.Hero-content {
+  }
+  
+  .Hero-content {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -31,33 +30,33 @@
     top: 18%;
     transform: translateY(-20%);
     z-index: 5;
-}
-
-.Hero-content h3 {
+  }
+  
+  .Hero-content h3 {
     font-size: 30px;
     color: rgb(248, 248, 248);
-}
-
-.Hero-content h1 {
+  }
+  
+  .Hero-content h1 {
     font-size: 12rem;
     font-family: "Megatron";
     font-weight: lighter;
-}
-
-.Hero-content p {
+  }
+  
+  .Hero-content p {
     font-size: 20px;
     margin-top: 30px;
-}
-
-.btn-layout {
+  }
+  
+  .btn-layout {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px 0px;
-}
-
-.btn-layout a {
+  }
+  
+  .btn-layout a {
     width: 20%;
     margin: 15px;
     line-height: 30px;
@@ -70,111 +69,122 @@
     background-color: white;
     text-decoration: none;
     text-align: center;
-
-}
-
-
-.drone {
+  }
+  
+  .drone {
     position: absolute;
-    right: 5%;
     bottom: 5%;
+    right: 5%;
     opacity: 0.9;
     transform: translate(-10%, -3%);
     height: 300px;
     z-index: 0;
-}
-
-.robot {
+  
+    /* border: 2px solid red; */
+  }
+  .droneParent {
+    position: absolute;
+    bottom: 0;
+  
+    width: 100vw;
+    height: 300px;
+  }
+  .robotParent {
+    position: absolute;
+    bottom: 0;
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 90vw;
+  }
+  
+  .robot {
     position: absolute;
     left: 10%;
     bottom: 5%;
-    transform: translate(0%, 20%);
+    /* transform: translate(0%, 20%); */
     height: 500px;
     opacity: 0.9;
     z-index: 0;
-}
-
-@media (max-width:1120px) {
-
+  }
+  
+  @media (max-width: 1120px) {
     .Hero-content h1 {
-        font-size: 10rem;
+      font-size: 10rem;
     }
-
-}
-
-@media (max-width:768px) {
+  }
+  
+  @media (max-width: 768px) {
     .Hero-content h3 {
-        font-size: 20px;
+      font-size: 20px;
     }
-
+  
     .Hero-content h1 {
-        font-size: 6rem;
+      font-size: 6rem;
     }
-
+  
     .Hero-content p {
-        font-size: 15px;
+      font-size: 15px;
     }
-}
-
-@media (max-width:480px) {
+  }
+  
+  @media (max-width: 480px) {
     .Hero-content {
-        top: 40%;
-        transform: translateY(-50%);
-
+      top: 40%;
+      transform: translateY(-50%);
     }
-
+  
     .Hero-content h3 {
-        font-size: 18px;
-        width: 70%;
-        text-align: center;
-        margin-bottom: 10px;
+      font-size: 18px;
+      width: 70%;
+      text-align: center;
+      margin-bottom: 10px;
     }
-
+  
     .Hero-content h1 {
-        font-size: 4rem;
+      font-size: 4rem;
     }
-
+  
     .Hero-content p {
-        font-size: 15px;
-        width: 60%;
-        text-align: center;
-        margin: 20px 0px;
-        font-weight: bold;
+      font-size: 15px;
+      width: 60%;
+      text-align: center;
+      margin: 20px 0px;
+      font-weight: bold;
     }
-
+  
     .btn-layout {
-        flex-direction: column;
+      flex-direction: column;
     }
-
+  
     .btn-layout a {
-        width: 40%;
-        margin: 10px;
-        padding: 3px 10px;
+      width: 40%;
+      margin: 10px;
+      padding: 3px 10px;
     }
-
+  
     .bg-circle {
-        transform: translate(-50%, -50%);
-        width: 350px;
-
+      transform: translate(-50%, -50%);
+      width: 350px;
     }
-
+  
     .drone {
-        right: 10%;
-        top: 5%;
-        transform: translate(-10%, -3%);
-        height: 200px;
-        width: 200px;
-
+      right: 10%;
+      top: 5%;
+      transform: translate(-10%, -3%);
+      height: 200px;
+      width: 200px;
     }
-
+    .droneParent {
+      top: 0;
+    }
+  
     .robot {
-        left: 5%;
-        bottom: 5%;
-        transform: translate(0%, 20%);
-        height: 380px;
-        width: 300px;
-        opacity: 0.9;
-
+      left: 5%;
+      bottom: 5%;
+      transform: translate(0%, 20%);
+      height: 380px;
+      width: 300px;
+      opacity: 0.9;
     }
-
-}
+  }
+  
