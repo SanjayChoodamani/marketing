@@ -1,4 +1,4 @@
-import Button from './Button';
+// import Button from './Button';
 import '../styles/Hero.css';
 import { motion } from "framer-motion"
 import { HashLink as Link } from 'react-router-hash-link';

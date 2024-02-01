@@ -1,5 +1,4 @@
 import '../styles/Carousel.css';
-import React from 'react';
 import { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -49,7 +48,7 @@ export default function Carousel() {
         <div className='carousel-design' id="gallery">
           <div className='carousel-heading'>
             <h1>GALLERY</h1>
-            <i class="fa-solid fa-arrow-down"></i>
+            <i className="fa-solid fa-arrow-down"></i>
           </div>
           <div className='carousel-card'>
             <Swiper
@@ -89,22 +88,61 @@ export default function Carousel() {
             </Swiper>
           </div>
         </div>
-
+        
       </>
     );
   }
-  else {
+  else if (windowSize[0] < 1400) {
     return (
       <>
         <div className='carousel-design' id="gallery">
           <div className='carousel-heading'>
             <h1>GALLERY</h1>
-            <i class="fa-solid fa-arrow-down"></i>
+            <i className="fa-solid fa-arrow-down"></i>
           </div>
           <div className='carousel-card'>
             <Swiper
               watchSlidesProgress={true} 
-              slidesPerView={2.5} 
+              slidesPerView={3} 
+              className="mySwiper"
+            >
+              <SwiperSlide><img src={enigma} alt='carouse-images' /></SwiperSlide>
+              <SwiperSlide><img src={Laser1} alt='carouse-images' /></SwiperSlide>
+              <SwiperSlide><img src={Laser2} alt='carouse-images' /></SwiperSlide>
+              <SwiperSlide><img src={Laser3} alt='carouse-images' /></SwiperSlide>
+              <SwiperSlide><img src={pulse} alt='carouse-images' /></SwiperSlide>
+              <SwiperSlide><img src={roboK} alt='carouse-images' /></SwiperSlide>
+              <SwiperSlide><img src={aero} alt='carouse-images' /></SwiperSlide>
+              <SwiperSlide><img src={roboS} alt='carouse-images' /></SwiperSlide>
+              <SwiperSlide><img src={extreme} alt='carouse-images' /></SwiperSlide>
+              <SwiperSlide><img src={play} alt='carouse-images' /></SwiperSlide>
+              <SwiperSlide><img src={loco} alt='carouse-images' /></SwiperSlide>
+              <SwiperSlide><img src={marketing} alt='carouse-images' /></SwiperSlide>
+              <SwiperSlide><img src={spud} alt='carouse-images' /></SwiperSlide>
+              <SwiperSlide><img src={npp} alt='carouse-images' /></SwiperSlide>
+              <SwiperSlide><img src={techS} alt='carouse-images' /></SwiperSlide>
+              <SwiperSlide><img src={mega} alt='carouse-images' /></SwiperSlide>
+              <SwiperSlide><img src={ing} alt='carouse-images' /></SwiperSlide>
+              <SwiperSlide><img src={inq} alt='carouse-images' /></SwiperSlide>
+            </Swiper>
+          </div>
+        </div>
+
+      </>
+    );
+  }
+  else{
+    return (
+      <>
+        <div className='carousel-design' id="gallery">
+          <div className='carousel-heading'>
+            <h1>GALLERY</h1>
+            <i className="fa-solid fa-arrow-down"></i>
+          </div>
+          <div className='carousel-card'>
+            <Swiper
+              watchSlidesProgress={true} 
+              slidesPerView={3.5} 
               className="mySwiper"
             >
               <SwiperSlide><img src={enigma} alt='carouse-images' /></SwiperSlide>

@@ -17,9 +17,8 @@
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.61);
     display: grid;
-    grid-template-columns: repeat(4, 0fr);
+    grid-template-columns: repeat(3, 0fr);
     -ms-grid-row-align: center;
-
 }
 
 .spons-list img{
