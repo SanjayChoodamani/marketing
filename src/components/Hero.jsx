@@ -2,7 +2,7 @@
 import '../styles/Hero.css';
 import { motion } from "framer-motion"
 import { HashLink as Link } from 'react-router-hash-link';
-// import Brochure from '/docs/Brochure.pdf'
+import Brochure from '/docs/Brochure.pdf'
 
 
 function Hero() {
@@ -56,7 +56,7 @@ function Hero() {
             </p>
   
             <div className="btn-layout">
-              <a href={''} download="Example-PDF-document" target="_blank">
+              <a href={Brochure} target="_blank" rel='noreferrer'>
                 Brochure
               </a>
               <Link to="#contact" smooth>
